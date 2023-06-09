@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <div id="container1" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img src="images/B .png" draggable="true" ondragstart="drag(event)" id="drag1">
+        <img src="images/N .png" draggable="true" ondragstart="drag(event)" id="drag2">
+        <img src="images/P .png" draggable="true" ondragstart="drag(event)" id="drag3">
+        <img src="images/Q .png" draggable="true" ondragstart="drag(event)" id="drag4">
+        <img src="images/R .png" draggable="true" ondragstart="drag(event)" id="drag5">
+        <img src="images/K .png" draggable="true" ondragstart="drag(event)" id="drag6">
+
+    </div>
+
+    <div id="container2" ondrop="drop(event)" ondragover="allowDrop(event)">
+    </div>
+
+    <h1 style="text-align: center;"></h1>
+    <button onclick="reset()">Reset</button>    
+    <p id="successMessage"></p>
+</body>
+
+
+</html>
