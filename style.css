@@ -3,19 +3,26 @@ html, body {
     height: 100%;
     background-image: linear-gradient(to right, #8e2de2, #206582);
     display: flex;
-    flex-direction: column;
+
     justify-content: center;
     align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 20px;
 }
 
 #container1,
 #container2 {
     background-color: whitesmoke;
-    float: left;
     width: 400px;
     height: 450px;
-    margin: 10px 20px 5px 20px; 
     padding: 10px;
+    margin: 10px 20px 5px 20px; 
     border: 5px solid black;
 }
 
@@ -42,11 +49,6 @@ button {
 p {
     text-align: center;
     font-size: large;
-    color: white;
-    display: inline-block;
+    color: rgb(233, 218, 218);
 }
 
-h1 {
-    text-align: center;
-    margin-top: 20px;
-}
